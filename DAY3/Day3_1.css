@@ -1,0 +1,41 @@
+header, aside, article, footer{
+	color: black;
+	float:left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+#container {
+	font-family: helvetica;
+	background-color: #ffffff;
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+
+}
+
+header {
+	background-color: orange;
+	width: calc(100% - 30px);
+}
+
+aside {
+ 	background-color: tan;
+ 	clear:left;
+ 	width: calc(20% - 30px);
+	height: 400px;
+ 
+}
+
+article {
+	background-color:purple;
+	width: calc(80% - 30px);
+	height: 400px;
+}
+
+footer{
+	background-color:cyan;
+	width: 100%;
+	width: calc(100% - 30px);
+}
